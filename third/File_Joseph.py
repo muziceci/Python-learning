@@ -1,15 +1,4 @@
-# 约瑟夫环,加上人的属性
-class Person:
-    def __init__(self,name,age,sex):
-        self.name = name
-        self.age = age
-        self.sex = sex
-    def getName(self):
-        return self.name
-    def getAge(self):
-        return self.age
-    def getSex(self):
-        return self.sex
+# 约瑟夫环,加上人的属性,人的属性是从txt文件读出的
         
 kill_lst = []
  
@@ -32,13 +21,12 @@ def get_survive_number(number,step):
 
 total_number = int(input("请输入总人数:"))
 kill_number = int(input("请输入会被杀掉的报数:"))
-
-p1 = Person('Jack',19,'male')
-p2 = Person('Vivi',17,'female')
-p3 = Person('Mark',21,'male')
-person_lst = [p1,p2,p3]
 result = get_survive_number(total_number,kill_number)
-assert(result == 3) #如果预期结果不是3则程序中断，报错
+assert(result == 4) #如果预期结果不是4则程序中断，报错
+
+people=open("E:/git/Python-learning/third/people.txt")
+people_lst=[i[:-1].split(',') for i in people.readlines()]
+    
 print("最后留下的人的属性:",end=" ")
-print("姓名：",person_lst[result-1].getName(),"年龄：",person_lst[result-1].getAge(),"性别：",person_lst[result-1].getSex())
+print("姓名:",people_lst[result-1][0]," 年龄:",people_lst[result-1][1]," 性别:",people_lst[result-1][2])
 print("被杀掉的编号:",kill_lst)
