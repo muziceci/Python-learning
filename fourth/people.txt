@@ -1,0 +1,7 @@
+Jack,19,male
+Vivi,17,female
+Snack,18,male
+Mark,29,male
+Wale,26,male
+Cindy,20,female
+Helle,15,female
