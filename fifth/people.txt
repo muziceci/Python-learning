@@ -1,0 +1,8 @@
+Jack,19,1
+Vivi,17,0
+Snack,18,1
+Mark,29,1
+Wale,26,1
+Cindy,20,0
+Helle,15,0
+Peter,26,1
