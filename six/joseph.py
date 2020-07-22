@@ -1,5 +1,6 @@
 #实现约瑟夫环类
-import reader
+
+
 import people
 
 class Joseph:
@@ -9,25 +10,10 @@ class Joseph:
         self.start = start
         self.step = step
         self.current = start - 1
-    
+
     def append(self, people_lst):
         for i in people_lst:
             self._people.append(people.Person(i[0], int(i[1]), int(i[2])))
-
-    def created_from_txt(self, file):
-        txt = reader.txt_reader(file)
-        people_lst = txt.reader()
-        self.append(people_lst)
-    
-    def created_from_csv(self, file):
-        csv = reader.csv_reader(file)
-        people_lst = csv.reader()
-        self.append(people_lst)
-
-    def created_from_zip(self, file):
-        zip_reader = reader.zip_reader(file)
-        people_lst = zip_reader.reader()
-        self.append(people_lst)
 
     def get_pop_order(self, people_lst, current_index):
         num = len(people_lst)

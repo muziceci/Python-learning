@@ -1,32 +1,18 @@
 
-import os
-import sys
 import joseph as J
+import reader
 
-TXT_FILE = "people.txt"
-CSV_FILE = "people.csv"
-ZIP_FILE = "people.zip"
+TXT_FILE = "file/people.txt"
+CSV_FILE = "file/people.csv"
+ZIP_FILE = "file/people.zip"
+ERROR_FILE = "pe.txt"
 
-def creat_joseph(file):
-    if file.endswith('.txt'):
-        joseph.created_from_txt(file)
-    elif file.endswith('.csv'):
-        joseph.created_from_csv(file)
-    elif file.endswith('.zip'):
-        joseph.created_from_zip(file)
-    elif os.access(file, os.F_OK):
-        print("File is not found")
-    else:
-        print("输入的不是正确的文件名格式！")
-        sys.exit(0)
 
 if __name__ == "__main__":
-    joseph = J.Joseph(2, 2)
-    # creat_joseph(TXT_FILE)
-    # creat_joseph(CSV_FILE)
-    # creat_joseph(ZIP_FILE)
-    # IN_FILE = str(input("请输入文件名："))# C:/Users/Administrator/Desktop/people.txt
-    # creat_joseph(IN_FILE)
+    people_lst = reader.get_people_lst_from(CSV_FILE)
+    # people_lst = reader.get_people_lst_from(ERROR_FILE)
+    joseph = J.Joseph(2, 3)
+    joseph.append(people_lst)
     print("被杀掉的依次是：")
     for i in joseph:
         print(i)
