@@ -18,4 +18,4 @@ class Person(object):
         return self.sex
 
     def __str__(self):
-        return "%s %d %s"%(self.name, self.age, self.sex)
+        return "%s %d %s" % (self.name, self.age, self.sex)
