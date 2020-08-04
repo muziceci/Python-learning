@@ -13,8 +13,10 @@ for i in lst:
 for i in people_lst:
     joseph.append(i)
 
+
 def test_num(number):
     assert(number == 3)
+
 
 result = joseph.get_survive_number()
 print("最后留下的人：", result)
