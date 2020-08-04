@@ -1,0 +1,8 @@
+{"name":"Jack","age":19,"sex":1}
+{"name":"Vivi","age":17,"sex":0}
+{"name":"Snack","age":18,"sex":1}
+{"name":"Mark","age":29,"sex":1}
+{"name":"Wale","age":26,"sex":1}
+{"name":"Cindy","age":20,"sex":0}
+{"name":"Helle","age":15,"sex":0}
+{"name":"Peter","age":26,"sex":1}

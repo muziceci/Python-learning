@@ -1,0 +1,4 @@
+TXT_FILE = "E:/git/Python-learning/six/file/people.txt"
+CSV_FILE = "E:/git/Python-learning/six/file/people.csv"
+ZIP_FILE = "E:/git/Python-learning/six/file/people.zip"
+ERROR_FILE = "pe.txt"
