@@ -1,9 +1,10 @@
 from PyQt5.QtWidgets import QApplication
-from josephus.representers.qt_interface import QtJoseph
+from josephus.adapter.qt_interface import QtJoseph
 
 
-app = QApplication([])
-qt_joseph = QtJoseph()
-qt_joseph.ui.show()
-app.exec_()
-
+if __name__ == "__main__":
+    app = QApplication([])
+    qt_joseph = QtJoseph()
+    qt_joseph.ui.show()
+    app.exec_()
+    

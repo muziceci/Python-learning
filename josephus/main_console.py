@@ -1,3 +1,4 @@
-from josephus.representers.console_interface import console_joseph
+from josephus.adapter.console_interface import console_joseph
 
-console_joseph()
+if __name__ == "__main__":
+    console_joseph()

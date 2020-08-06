@@ -5,7 +5,7 @@ class Person(object):
         if age > 0:
             self.age = age
         else:
-            raise ValueError("输入的年龄必须小于0！")
+            raise ValueError("The age must be under zero！")
 
         if sex == 0:
             self.sex = 'Female'

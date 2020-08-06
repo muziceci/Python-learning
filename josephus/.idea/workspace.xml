@@ -2,35 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e4d035-1905-4324-8377-a13037d842a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../josephus/file/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/file_path" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/interface/get_people_lst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/realise/realise_joseph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/representers/Qt_Ui/joseph.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/representers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/representers/qt_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/representers/tk_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/josephus/use_cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/main_console.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/main_qt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/main_tk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/entity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/entity/test_person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/realise/test_realise_joseph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/use_cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/use_cases/test_csv_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/use_cases/test_txt_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josephus/tests/use_cases/test_zip_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/people.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../josephus/file/people.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/people.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/people.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../josephus/file/people.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joseph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_path" beforeDir="false" afterPath="$PROJECT_DIR$/file_path" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/entity/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/entity/person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/entity/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/entity/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/interface/get_people_lst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/realise/realise_joseph.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/interface/realise_joseph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/representers/Qt_Ui/joseph.ui" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/adapter/Qt_Ui/joseph.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/representers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/adapter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/representers/console_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/adapter/console_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/representers/qt_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/adapter/qt_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/representers/tk_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/adapter/tk_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/use_cases/csv_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/use_cases/joseph.py" beforeDir="false" afterPath="$PROJECT_DIR$/josephus/use_cases/joseph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/use_cases/txt_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/josephus/use_cases/zip_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_qt.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_qt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_tk.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_tk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/entity/test_person.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entity/test_person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/interface/test_get_people_lst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/realise/test_realise_joseph.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/interface/test_realise_joseph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/use_cases/test_csv_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/use_cases/test_joseph.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/use_cases/test_joseph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/use_cases/test_txt_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/use_cases/test_zip_reader.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,41 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../josephus/josephus/realise/realise_joseph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../josephus/file_path">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../josephus/josephus/representers/qt_interface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,11 +49,13 @@
       <find>txt</find>
       <find>.root</find>
       <find>\</find>
+      <find>creat</find>
     </findStrings>
     <replaceStrings>
       <replace>zip</replace>
       <replace />
       <replace>/</replace>
+      <replace>create</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -102,15 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JosephUi.py" />
-        <option value="$PROJECT_DIR$/josephus/domain/joseph.py" />
-        <option value="$PROJECT_DIR$/josephus/domain/reader.py" />
-        <option value="$PROJECT_DIR$/tests/domain/test_joseph.py" />
-        <option value="$PROJECT_DIR$/josephus/domain/person.py" />
-        <option value="$PROJECT_DIR$/josephus/interface/realise_joseph.py" />
-        <option value="$PROJECT_DIR$/josephus/representers/represent_joseph.py" />
-        <option value="$PROJECT_DIR$/josephus/representers/realise_joseph.py" />
-        <option value="$PROJECT_DIR$/tests/domain/test_person.py" />
         <option value="$PROJECT_DIR$/josephus/entity/joseph.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/joseph_ui.py" />
@@ -120,47 +75,56 @@
         <option value="$PROJECT_DIR$/josephus/representers/joseph_qt.py" />
         <option value="$PROJECT_DIR$/josephus/representers/joseph_console.py" />
         <option value="$PROJECT_DIR$/josephus/representers/interface.py" />
-        <option value="$PROJECT_DIR$/josephus/interface/interface.py" />
-        <option value="$PROJECT_DIR$/main_qt.py" />
         <option value="$PROJECT_DIR$/josephus/representers/qt_interface.py" />
         <option value="$PROJECT_DIR$/josephus/representers/tk_interface.py" />
-        <option value="$PROJECT_DIR$/main_tk.py" />
-        <option value="$PROJECT_DIR$/josephus/interface/get_people_lst.py" />
         <option value="$PROJECT_DIR$/josephus/serializer/serializer.py" />
         <option value="$PROJECT_DIR$/file/test2.txt" />
         <option value="$PROJECT_DIR$/file/test.txt" />
         <option value="$PROJECT_DIR$/file/t" />
         <option value="$PROJECT_DIR$/file/people.csv" />
         <option value="$PROJECT_DIR$/josephus/serializer/people_serializer.py" />
-        <option value="$PROJECT_DIR$/tests/entity/test_person.py" />
         <option value="$PROJECT_DIR$/tests/use_cases/test_csv_reader.py" />
         <option value="$PROJECT_DIR$/tests/use_cases/test_zip_reader.py" />
         <option value="$PROJECT_DIR$/reader.py" />
         <option value="$PROJECT_DIR$/file/people.txt" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/main_console.py" />
         <option value="$PROJECT_DIR$/josephus/representers/console_interface.py" />
         <option value="$PROJECT_DIR$/tests/use_cases/test_txt_reader.py" />
-        <option value="$PROJECT_DIR$/josephus/entity/person.py" />
-        <option value="$PROJECT_DIR$/josephus/entity/reader.py" />
         <option value="$PROJECT_DIR$/josephus/use_cases/csv_reader.py" />
-        <option value="$PROJECT_DIR$/josephus/use_cases/joseph.py" />
         <option value="$PROJECT_DIR$/josephus/use_cases/txt_reader.py" />
         <option value="$PROJECT_DIR$/josephus/use_cases/zip_reader.py" />
         <option value="$PROJECT_DIR$/josephus/realise/realise_joseph.py" />
         <option value="$PROJECT_DIR$/joseph.py" />
-        <option value="$PROJECT_DIR$/tests/use_cases/test_joseph.py" />
         <option value="$PROJECT_DIR$/tests/interface/test_get_people_lst.py" />
         <option value="$PROJECT_DIR$/tests/realise/test_realise_joseph.py" />
-        <option value="$PROJECT_DIR$/../josephus/josephus/representers/qt_interface.py" />
+        <option value="$PROJECT_DIR$/josephus/representers/qt_interface.py" />
+        <option value="$PROJECT_DIR$/josephus/entity/reader.py" />
+        <option value="$PROJECT_DIR$/tests/entity/test_person.py" />
+        <option value="$PROJECT_DIR$/josephus/interface/get_people_lst.py" />
+        <option value="$PROJECT_DIR$/main_console.py" />
+        <option value="$PROJECT_DIR$/main_qt.py" />
+        <option value="$PROJECT_DIR$/main_tk.py" />
+        <option value="$PROJECT_DIR$/josephus/entity/person.py" />
+        <option value="$PROJECT_DIR$/josephus/adapter/readers.py" />
+        <option value="$PROJECT_DIR$/file_path" />
+        <option value="$PROJECT_DIR$/tests/use_cases/test_joseph.py" />
+        <option value="$PROJECT_DIR$/josephus/use_cases/joseph.py" />
+        <option value="$PROJECT_DIR$/josephus/adapter/console_interface.py" />
+        <option value="$PROJECT_DIR$/tests/adapter/test_readers.py" />
+        <option value="$PROJECT_DIR$/main_tests.py" />
+        <option value="$PROJECT_DIR$/josephus/interface/interface.py" />
+        <option value="$PROJECT_DIR$/josephus/adapter/tk_interface.py" />
+        <option value="$PROJECT_DIR$/josephus/adapter/qt_interface.py" />
+        <option value="$PROJECT_DIR$/tests/interface/test_realise_joseph.py" />
+        <option value="$PROJECT_DIR$/josephus/interface/realise_joseph.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="600" />
-    <option name="y" value="55" />
-    <option name="width" value="1045" />
-    <option name="height" value="980" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="365" />
+    <option name="y" value="40" />
+    <option name="width" value="1315" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -170,64 +134,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="josephus" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="file" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="josephus" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="josephus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="josephus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="josephus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="interface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="josephus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="representers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="josephus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="use_cases" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="six" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\git\Python-learning\josephus" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -242,11 +172,11 @@
       <recent name="E:\git\Python-learning\six\josephus\domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\Python-learning\josephus\tests\adapter" />
+      <recent name="E:\git\Python-learning\josephus\tests\interface" />
+      <recent name="E:\git\Python-learning\josephus\josephus\interface" />
       <recent name="E:\git\Python-learning\six\tests\use_cases" />
       <recent name="E:\git\Python-learning\six\josephus\serializer" />
-      <recent name="E:\git\Python-learning\six\josephus\interface" />
-      <recent name="E:\git\Python-learning\six\josephus\use_cases" />
-      <recent name="E:\git\Python-learning\six\josephus\representers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,101 +191,119 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_realise_joseph.py">
-    <configuration name="pytest for tests.interface.test_get_people_lst.test_get_people_lst" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main_qt">
+    <configuration name="main_qt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="six" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_qt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_tk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="six" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_tk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qt_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="six" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/josephus/adapter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/josephus/adapter/qt_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_realise_joseph.TestRealiseJoseph" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="six" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../josephus/tests/interface" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.interface.test_get_people_lst.test_get_people_lst&quot;" />
+      <option name="_new_target" value="&quot;test_realise_joseph.TestRealiseJoseph&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.realise.test_realise_joseph.test_joseph" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="six" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../josephus/tests/realise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.realise.test_realise_joseph.test_joseph&quot;" />
+      <option name="_new_target" value="&quot;test_realise_joseph.TestRealiseJoseph.test_create_joseph&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_csv_reader.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="six" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../josephus/tests/use_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../josephus/tests/use_cases/test_csv_reader.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_get_people_lst.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="six" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../josephus/tests/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../josephus/tests/interface/test_get_people_lst.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_realise_joseph.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="six" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../josephus/tests/realise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../josephus/tests/realise/test_realise_joseph.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_csv_reader.py" />
-      <item itemvalue="Python tests.pytest in test_get_people_lst.py" />
-      <item itemvalue="Python tests.pytest for tests.interface.test_get_people_lst.test_get_people_lst" />
-      <item itemvalue="Python tests.pytest for tests.realise.test_realise_joseph.test_joseph" />
-      <item itemvalue="Python tests.pytest in test_realise_joseph.py" />
+      <item itemvalue="Python.main_tk" />
+      <item itemvalue="Python.main_qt" />
+      <item itemvalue="Python.qt_interface" />
+      <item itemvalue="Python tests.pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" />
+      <item itemvalue="Python tests.pytest for test_realise_joseph.TestRealiseJoseph" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_realise_joseph.py" />
-        <item itemvalue="Python tests.pytest for tests.realise.test_realise_joseph.test_joseph" />
-        <item itemvalue="Python tests.pytest for tests.interface.test_get_people_lst.test_get_people_lst" />
-        <item itemvalue="Python tests.pytest in test_get_people_lst.py" />
-        <item itemvalue="Python tests.pytest in test_csv_reader.py" />
+        <item itemvalue="Python.main_qt" />
+        <item itemvalue="Python tests.pytest for test_realise_joseph.TestRealiseJoseph" />
+        <item itemvalue="Python tests.pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" />
+        <item itemvalue="Python.qt_interface" />
+        <item itemvalue="Python.main_tk" />
       </list>
     </recent_temporary>
   </component>
@@ -389,53 +337,63 @@
       <workItem from="1596179490121" duration="2312000" />
       <workItem from="1596185181906" duration="956000" />
       <workItem from="1596270098779" duration="11884000" />
+      <workItem from="1596509463349" duration="1046000" />
+      <workItem from="1596521428865" duration="12000" />
+      <workItem from="1596522110084" duration="6927000" />
+      <workItem from="1596591655360" duration="10032000" />
+      <workItem from="1596616155083" duration="47000" />
+      <workItem from="1596616865897" duration="3844000" />
+      <workItem from="1596631518419" duration="9000" />
+      <workItem from="1596632200637" duration="13000" />
+      <workItem from="1596676017098" duration="7882000" />
+      <workItem from="1596685175864" duration="7208000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_txt_reader_test_txt_reader - 2020.08.01 at 17h 18m 08s.xml">
-      <configuration name="pytest for test_txt_reader.test_txt_reader" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_get_result - 2020.08.06 at 11h 21m 06s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_get_result" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_joseph_py - 2020.08.01 at 17h 28m 32s.xml">
-      <configuration name="pytest in test_joseph.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_create_joseph - 2020.08.06 at 11h 22m 26s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_csv_reader_py - 2020.08.01 at 17h 28m 42s.xml">
-      <configuration name="pytest in test_csv_reader.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_init - 2020.08.06 at 11h 22m 56s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_init" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_get_people_lst_py - 2020.08.01 at 17h 30m 39s.xml">
-      <configuration name="pytest in test_get_people_lst.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_init - 2020.08.06 at 11h 23m 02s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_init" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_get_people_lst_test_get_people_lst - 2020.08.01 at 17h 31m 12s.xml">
-      <configuration name="pytest for test_get_people_lst.test_get_people_lst" configurationId="tests" />
+    <history-entry file="pytest_for_test_readers_TestReader - 2020.08.06 at 11h 25m 00s.xml">
+      <configuration name="pytest for test_readers.TestReader" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_realise_joseph_test_joseph - 2020.08.01 at 17h 34m 22s.xml">
-      <configuration name="pytest for test_realise_joseph.test_joseph" configurationId="tests" />
+    <history-entry file="pytest_for_test_readers_TestReader_test_csv_reader - 2020.08.06 at 11h 25m 44s.xml">
+      <configuration name="pytest for test_readers.TestReader.test_csv_reader" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_realise_joseph_py - 2020.08.01 at 19h 14m 28s.xml">
-      <configuration name="pytest in test_realise_joseph.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_create_joseph - 2020.08.06 at 14h 18m 14s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_realise_joseph_py - 2020.08.01 at 19h 15m 40s.xml">
-      <configuration name="pytest in test_realise_joseph.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_create_joseph - 2020.08.06 at 15h 17m 42s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_realise_joseph_py - 2020.08.01 at 19h 16m 06s.xml">
-      <configuration name="pytest in test_realise_joseph.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph_test_create_joseph - 2020.08.06 at 15h 19m 38s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_realise_joseph_py - 2020.08.01 at 19h 16m 34s.xml">
-      <configuration name="pytest in test_realise_joseph.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_realise_joseph_TestRealiseJoseph - 2020.08.06 at 15h 20m 21s.xml">
+      <configuration name="pytest for test_realise_joseph.TestRealiseJoseph" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110875000" />
+    <option name="totallyTimeSpent" value="147895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.2191689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.20844504" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31586403" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0694051" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14305949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4036827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +402,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29117647" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,13 +411,13 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.24865952" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.20844504" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33427763" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24504249" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31586403" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09348442" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4036827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -467,7 +425,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15580736" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,312 +437,298 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../josephus/josephus/use_cases/txt_reader.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/six$qt_interface.coverage" NAME="qt_interface Coverage Results" MODIFIED="1596079415088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
     <SUITE FILE_PATH="coverage/six$pytest_in_test_txt_reader_py.coverage" NAME="pytest in test_txt_reader.py Coverage Results" MODIFIED="1596273022843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_joseph.coverage" NAME="pytest for test_joseph.TestJoseph.test_joseph Coverage Results" MODIFIED="1596597926653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$JosephUi.coverage" NAME="JosephUi Coverage Results" MODIFIED="1595561609644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/ui" />
-    <SUITE FILE_PATH="coverage/six$pytest_in_test_csv_reader_py.coverage" NAME="pytest in test_csv_reader.py Coverage Results" MODIFIED="1596274120857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
-    <SUITE FILE_PATH="coverage/six$main.coverage" NAME="main Coverage Results" MODIFIED="1596271840924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_get_len.coverage" NAME="pytest for test_joseph.TestJoseph.test_get_len Coverage Results" MODIFIED="1596597588338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_in_test_realise_joseph_py.coverage" NAME="pytest in test_realise_joseph.py Coverage Results" MODIFIED="1596680273869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$test_get_josephus.coverage" NAME="test_get_josephus Coverage Results" MODIFIED="1595476455684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interactor" />
     <SUITE FILE_PATH="coverage/six$zip_reader.coverage" NAME="zip_reader Coverage Results" MODIFIED="1596273860836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
-    <SUITE FILE_PATH="coverage/six$pytest_for_test_csv_reader_test_csv_reader.coverage" NAME="pytest for test_csv_reader.test_csv_reader Coverage Results" MODIFIED="1596272614523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
-    <SUITE FILE_PATH="coverage/six$reader.coverage" NAME="reader Coverage Results" MODIFIED="1596095456709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/entity" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_joseph_next.coverage" NAME="pytest for test_joseph.TestJoseph.test_joseph_next Coverage Results" MODIFIED="1596598358966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$realise_joseph.coverage" NAME="realise_joseph Coverage Results" MODIFIED="1596273952438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/realise" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_create_joseph.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_create_joseph Coverage Results" MODIFIED="1596698377245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$csv_reader.coverage" NAME="csv_reader Coverage Results" MODIFIED="1596273596854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_pop.coverage" NAME="pytest for test_joseph.TestJoseph.test_pop Coverage Results" MODIFIED="1596597610784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$qt_interface.coverage" NAME="qt_interface Coverage Results" MODIFIED="1596697165228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/adapter" />
+    <SUITE FILE_PATH="coverage/six$get_people_lst.coverage" NAME="get_people_lst Coverage Results" MODIFIED="1596165004356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/interface" />
+    <SUITE FILE_PATH="coverage/six$pytest_in_test_get_people_lst_py.coverage" NAME="pytest in test_get_people_lst.py Coverage Results" MODIFIED="1596274237569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/josephus$joseph.coverage" NAME="joseph Coverage Results" MODIFIED="1596592088113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$main_tests.coverage" NAME="main_tests Coverage Results" MODIFIED="1596694706073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_init.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_init Coverage Results" MODIFIED="1596684181094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/six$pytest_in_test_realise_joseph_py.coverage" NAME="pytest in test_realise_joseph.py Coverage Results" MODIFIED="1596280592290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/realise" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_person_TestPerson_test_init.coverage" NAME="pytest for test_person.TestPerson.test_init Coverage Results" MODIFIED="1596523911493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
+    <SUITE FILE_PATH="coverage/josephus$person.coverage" NAME="person Coverage Results" MODIFIED="1596592452507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/entity" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_result.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_result Coverage Results" MODIFIED="1596681076922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/six$joseph_console.coverage" NAME="joseph_console Coverage Results" MODIFIED="1596012435999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_person_TestPerson_test_age_error.coverage" NAME="pytest for test_person.TestPerson.test_age_error Coverage Results" MODIFIED="1596524771646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
+    <SUITE FILE_PATH="coverage/josephus$main_qt.coverage" NAME="main_qt Coverage Results" MODIFIED="1596698709198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/six$joseph_ui.coverage" NAME="joseph_ui Coverage Results" MODIFIED="1595900378566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/six$JosephUi__1_.coverage" NAME="JosephUi (1) Coverage Results" MODIFIED="1595562120342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_get_kill_lst.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_get_kill_lst Coverage Results" MODIFIED="1596680789134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/six$pytest_for_test_realise_joseph_test_joseph.coverage" NAME="pytest for test_realise_joseph.test_joseph Coverage Results" MODIFIED="1596274460370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/realise" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_in_test_joseph_py.coverage" NAME="pytest in test_joseph.py Coverage Results" MODIFIED="1596594180238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/six$txt_reader.coverage" NAME="txt_reader Coverage Results" MODIFIED="1596273443798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
+    <SUITE FILE_PATH="coverage/six$pytest_for_test_txt_reader_test_txt_reader.coverage" NAME="pytest for test_txt_reader.test_txt_reader Coverage Results" MODIFIED="1596273487143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_person_TestPerson.coverage" NAME="pytest for test_person.TestPerson Coverage Results" MODIFIED="1596524025918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_get_people_lst.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_get_people_lst Coverage Results" MODIFIED="1596678645711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/josephus$realise_joseph.coverage" NAME="realise_joseph Coverage Results" MODIFIED="1596677252467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/interface" />
+    <SUITE FILE_PATH="coverage/six$test_person.coverage" NAME="test_person Coverage Results" MODIFIED="1596165825024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
+    <SUITE FILE_PATH="coverage/six$test_joseph.coverage" NAME="test_joseph Coverage Results" MODIFIED="1596167519161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/six$pytest_for_test_joseph_test_append.coverage" NAME="pytest for test_joseph.test_append Coverage Results" MODIFIED="1596270454432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/six$pytest_in_test_csv_reader_py.coverage" NAME="pytest in test_csv_reader.py Coverage Results" MODIFIED="1596274120857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_get_survive.coverage" NAME="pytest for test_joseph.TestJoseph.test_get_survive Coverage Results" MODIFIED="1596598259073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_in_test_person_py.coverage" NAME="pytest in test_person.py Coverage Results" MODIFIED="1596524788077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph Coverage Results" MODIFIED="1596698420282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/six$main.coverage" NAME="main Coverage Results" MODIFIED="1596271840924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/six$pytest_for_test_csv_reader_test_csv_reader.coverage" NAME="pytest for test_csv_reader.test_csv_reader Coverage Results" MODIFIED="1596272614523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_joseph_iter.coverage" NAME="pytest for test_joseph.TestJoseph.test_joseph_iter Coverage Results" MODIFIED="1596597942724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/six$reader.coverage" NAME="reader Coverage Results" MODIFIED="1596095456709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/entity" />
     <SUITE FILE_PATH="coverage/six$person.coverage" NAME="person Coverage Results" MODIFIED="1596095568765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/entity" />
     <SUITE FILE_PATH="coverage/six$joseph_tk.coverage" NAME="joseph_tk Coverage Results" MODIFIED="1595929105735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
     <SUITE FILE_PATH="coverage/six$create_joseph.coverage" NAME="create_joseph Coverage Results" MODIFIED="1595490783315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
     <SUITE FILE_PATH="coverage/six$pytest_for_test_get_people_lst_test_get_people_lst.coverage" NAME="pytest for test_get_people_lst.test_get_people_lst Coverage Results" MODIFIED="1596274270946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$represent_joseph.coverage" NAME="represent_joseph Coverage Results" MODIFIED="1595567534491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
-    <SUITE FILE_PATH="coverage/six$get_people_lst.coverage" NAME="get_people_lst Coverage Results" MODIFIED="1596165004356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/interface" />
-    <SUITE FILE_PATH="coverage/six$pytest_in_test_get_people_lst_py.coverage" NAME="pytest in test_get_people_lst.py Coverage Results" MODIFIED="1596274237569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$joseph__1_.coverage" NAME="joseph (1) Coverage Results" MODIFIED="1595474668945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/domain" />
     <SUITE FILE_PATH="coverage/six$main_qt.coverage" NAME="main_qt Coverage Results" MODIFIED="1596099360090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_init_joseph.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_init_joseph Coverage Results" MODIFIED="1596684043006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$pytest_in_test_joseph_py.coverage" NAME="pytest in test_joseph.py Coverage Results" MODIFIED="1596274110086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$test_txt_reader.coverage" NAME="test_txt_reader Coverage Results" MODIFIED="1596172464788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$test_csv_reader.coverage" NAME="test_csv_reader Coverage Results" MODIFIED="1596173004826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
-    <SUITE FILE_PATH="coverage/six$pytest_in_test_realise_joseph_py.coverage" NAME="pytest in test_realise_joseph.py Coverage Results" MODIFIED="1596280592290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/realise" />
     <SUITE FILE_PATH="coverage/six$main_tk.coverage" NAME="main_tk Coverage Results" MODIFIED="1596093577993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/six$test_zip_reader.coverage" NAME="test_zip_reader Coverage Results" MODIFIED="1596173030324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
-    <SUITE FILE_PATH="coverage/six$joseph_console.coverage" NAME="joseph_console Coverage Results" MODIFIED="1596012435999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
-    <SUITE FILE_PATH="coverage/six$joseph_ui.coverage" NAME="joseph_ui Coverage Results" MODIFIED="1595900378566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/six$JosephUi__1_.coverage" NAME="JosephUi (1) Coverage Results" MODIFIED="1595562120342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/six$pytest_for_test_realise_joseph_test_joseph.coverage" NAME="pytest for test_realise_joseph.test_joseph Coverage Results" MODIFIED="1596274460370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/realise" />
+    <SUITE FILE_PATH="coverage/josephus$reader.coverage" NAME="reader Coverage Results" MODIFIED="1596591882106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/entity" />
+    <SUITE FILE_PATH="coverage/josephus$main_console.coverage" NAME="main_console Coverage Results" MODIFIED="1596686227670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/josephus$tk_interface.coverage" NAME="tk_interface Coverage Results" MODIFIED="1596695241225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/adapter" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_remain_result.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_remain_result Coverage Results" MODIFIED="1596680877594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_append.coverage" NAME="pytest for test_joseph.TestJoseph.test_append Coverage Results" MODIFIED="1596597575044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$test_get_josephus__1_.coverage" NAME="test_get_josephus (1) Coverage Results" MODIFIED="1595476660242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_readers_TestReader.coverage" NAME="pytest for test_readers.TestReader Coverage Results" MODIFIED="1596684298892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/adapter" />
     <SUITE FILE_PATH="coverage/six$joseph.coverage" NAME="joseph Coverage Results" MODIFIED="1596273741531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
     <SUITE FILE_PATH="coverage/six$joseph_qt.coverage" NAME="joseph_qt Coverage Results" MODIFIED="1595926966849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_realise_joseph_TestRealiseJoseph_test_get_result.coverage" NAME="pytest for test_realise_joseph.TestRealiseJoseph.test_get_result Coverage Results" MODIFIED="1596684065302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
     <SUITE FILE_PATH="coverage/six$tk_interface.coverage" NAME="tk_interface Coverage Results" MODIFIED="1596090184735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
     <SUITE FILE_PATH="coverage/six$main_console.coverage" NAME="main_console Coverage Results" MODIFIED="1596272623617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/six$txt_reader.coverage" NAME="txt_reader Coverage Results" MODIFIED="1596273443798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/use_cases" />
-    <SUITE FILE_PATH="coverage/six$pytest_for_test_txt_reader_test_txt_reader.coverage" NAME="pytest for test_txt_reader.test_txt_reader Coverage Results" MODIFIED="1596273487143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph.coverage" NAME="pytest for test_joseph.TestJoseph Coverage Results" MODIFIED="1596598387986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
     <SUITE FILE_PATH="coverage/six$test_get_people_lst.coverage" NAME="test_get_people_lst Coverage Results" MODIFIED="1596173180055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/interface" />
+    <SUITE FILE_PATH="coverage/josephus$main_tk.coverage" NAME="main_tk Coverage Results" MODIFIED="1596696602861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/six$console_interface.coverage" NAME="console_interface Coverage Results" MODIFIED="1596092956719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/josephus/representers" />
-    <SUITE FILE_PATH="coverage/six$test_person.coverage" NAME="test_person Coverage Results" MODIFIED="1596165825024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/entity" />
-    <SUITE FILE_PATH="coverage/six$test_joseph.coverage" NAME="test_joseph Coverage Results" MODIFIED="1596167519161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
-    <SUITE FILE_PATH="coverage/six$pytest_for_test_joseph_test_append.coverage" NAME="pytest for test_joseph.test_append Coverage Results" MODIFIED="1596270454432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_readers_TestReader_test_csv_reader.coverage" NAME="pytest for test_readers.TestReader.test_csv_reader Coverage Results" MODIFIED="1596684343180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/adapter" />
+    <SUITE FILE_PATH="coverage/josephus$pytest_for_test_joseph_TestJoseph_test_init.coverage" NAME="pytest for test_joseph.TestJoseph.test_init Coverage Results" MODIFIED="1596683365168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/use_cases" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/josephus/interface.py/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/interface/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/josephus/domain/get_people_lst.py" />
     <entry file="file://$PROJECT_DIR$/josephus/interface.py/get_people_lst.py" />
     <entry file="file://$PROJECT_DIR$/josephus/main.py" />
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/representers/__init__.py">
+    <entry file="file://$PROJECT_DIR$/josephus/adapter/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/use_cases/__init__.py">
+    <entry file="file://$PROJECT_DIR$/josephus/use_cases/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/interface/__init__.py">
+    <entry file="file://$PROJECT_DIR$/josephus/interface/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/josephus/app.py" />
     <entry file="file://$PROJECT_DIR$/josephus/representers/tk_joseph.py" />
     <entry file="file://$PROJECT_DIR$/josephus/interface/create_joseph.py" />
-    <entry file="file://$PROJECT_DIR$/josephus/interface/realise_joseph.py" />
     <entry file="file://$PROJECT_DIR$/josephus/serializers/person.py" />
-    <entry file="file://$PROJECT_DIR$/josephus/interface/interface.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/josephus/serializer/__init__.py" />
     <entry file="file://$PROJECT_DIR$/file/test2.txt" />
     <entry file="file://$PROJECT_DIR$/file/test.txt" />
     <entry file="file://$PROJECT_DIR$/file/t" />
     <entry file="file://$PROJECT_DIR$/josephus/serializer/people_serializer.py" />
-    <entry file="file://$PROJECT_DIR$/../josephus/main_console.py" />
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/entity/__init__.py">
+    <entry file="file://$PROJECT_DIR$/josephus/entity/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/use_cases/test_zip_reader.py">
+    <entry file="file://$PROJECT_DIR$/reader.py" />
+    <entry file="file://$PROJECT_DIR$/joseph.py" />
+    <entry file="file://$PROJECT_DIR$/people.py" />
+    <entry file="file://$USER_HOME$/Desktop/practice1/1.py" />
+    <entry file="file://$PROJECT_DIR$/josephus/use_cases/csv_reader.py" />
+    <entry file="file://$PROJECT_DIR$/josephus/use_cases/txt_reader.py" />
+    <entry file="file://$PROJECT_DIR$/josephus/use_cases/zip_reader.py" />
+    <entry file="file://$PROJECT_DIR$/tests/adapter/test_txt_reader.py" />
+    <entry file="file://$PROJECT_DIR$/tests/adapter/test_zip_reader.py" />
+    <entry file="file://$PROJECT_DIR$/tests/adapter/test_csv_reader.py" />
+    <entry file="file://$PROJECT_DIR$/tests/interface/test_get_people_lst.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/756412452/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="183">
+          <caret line="811" column="8" selection-start-line="811" selection-start-column="8" selection-end-line="811" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reader.py">
+    <entry file="file://$PROJECT_DIR$/file/people.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/people.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josephus/interface/get_people_lst.py" />
+    <entry file="file://$PROJECT_DIR$/josephus/adapter/console_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/adapter/test_readers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josephus/interface/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_path">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software install/python3.6/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1698" selection-start-line="1698" selection-end-line="1698" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/use_cases/test_joseph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/main_tk.py">
+    <entry file="file://$PROJECT_DIR$/tests/entity/test_person.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="400">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/file/people.txt">
+    <entry file="file://$PROJECT_DIR$/josephus/adapter/readers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/use_cases/test_txt_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/entity/person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/entity/reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/use_cases/csv_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="-25">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/use_cases/txt_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/use_cases/zip_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joseph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/use_cases/test_joseph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/use_cases/test_csv_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/use_cases/joseph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/entity/test_person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/interface/test_get_people_lst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/interface/get_people_lst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/representers/tk_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/main_console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/tests/realise/test_realise_joseph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/main_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/file/people.csv">
+    <entry file="file://$PROJECT_DIR$/main_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/representers/console_interface.py">
+    <entry file="file://$PROJECT_DIR$/josephus/use_cases/joseph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-392">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/realise/realise_joseph.py">
+    <entry file="file://$PROJECT_DIR$/main_tk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interface/test_realise_joseph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josephus/entity/person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josephus/entity/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josephus/interface/realise_joseph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/file_path">
+    <entry file="file://$PROJECT_DIR$/josephus/adapter/qt_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="801">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../josephus/josephus/representers/qt_interface.py">
+    <entry file="file://$PROJECT_DIR$/josephus/adapter/tk_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        <state relative-caret-position="326">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

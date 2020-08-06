@@ -1,3 +1,5 @@
-from josephus.representers.tk_interface import TkJoseph
+from josephus.adapter.tk_interface import TkJoseph
 
-TkJoseph()
+
+if __name__ == "__main__":
+    TkJoseph()

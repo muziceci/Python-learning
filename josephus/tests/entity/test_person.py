@@ -1,23 +1,17 @@
+import pytest
 from josephus.entity.person import Person
 
 
 class TestPerson:
-    def test_get_name(self):
-        person = Person("jack")
-        assert(person.name == "jack")
+    def test_init_and_str(self):
+        person = Person("jack", 17, 0)
+        assert person.name == "jack"
+        assert person.age == 17
+        assert person.sex == "Female"
+        assert str(person) == "姓名：jack 年龄：17 性别：Female"
 
-    def test_get_age(self):
-        person = Person("jack", age=15)
-        assert(person.age == 15)
+    def test_age_error(self):
+        with pytest.raises(ValueError) as ve:
+            person = Person("jack", -1)
+            assert str(ve.value) == "The age must be under zero！"
 
-    def test_error_age(self):
-        person = Person("jack", age=-1)
-        assert(person.age == -1)
-
-    def test_get_sex(self):
-        person = Person("jack", sex=1)
-        assert(person.sex == 'Male')
-
-    def test_str(self):
-        person = Person("jack", age=19, sex=1)
-        assert(str(person) == "姓名：jack 年龄：19 性别：Male")

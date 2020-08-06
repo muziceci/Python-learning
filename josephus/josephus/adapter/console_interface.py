@@ -1,4 +1,4 @@
-from josephus.realise.realise_joseph import RealiseJoseph
+from josephus.interface.realise_joseph import RealiseJoseph
 
 
 def console_joseph():
@@ -6,4 +6,4 @@ def console_joseph():
     start = int(input("请输入开始报数的位置："))
     step = int(input("请输入出约瑟夫环的间隔："))
     joseph = RealiseJoseph(file, start, step)
-    print(joseph.get_str_result())
+    print(joseph.get_result())
